@@ -13,7 +13,7 @@
             </button>
           </div>
           <button @click="toggleReadOnly"
-                  class="btn btn--readOnly">{{ isReadOnly? `Editable`: `Read Only`}}</button>
+                  class="btn btn--readOnly">{{ isReadOnly? `Make Editable`: `Make Read Only`}}</button>
         </div>
 
         <div class="wrapper--editor"
@@ -144,7 +144,6 @@ export default {
   }
 }
 </script>
-
 
 <style lang="stylus" scoped>
 .wrapper {
